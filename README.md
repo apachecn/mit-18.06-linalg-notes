@@ -2,19 +2,13 @@
 
 # 中文 Linear Algebra （线性代数） 笔记
 
-> 版本：0.0.1<br>
-> 作者：陈瑶<br>
-> 邮件：chinachenyyx@163.com<br>
-
----
-
 ## Overview （概述）
 
 Most of the content comes from the web.<br>
 大部分内容来自网络。
 
 I know my knowledge of linear algebra is not very thorough, so I re-learn linear algebra, record the corresponding notes.<br>
-由于本人对线性代数的知识了解不深，特意重新学习一次线代，记录下相应笔记。
+由于我们对线性代数的知识了解不深，特意重新学习一次线代，记录下相应笔记。
 
 课程顺序是按照麻省理工公开课的 [Linear Algebra](http://open.163.com/special/opencourse/daishu.html) 记录的学习笔记。
 
