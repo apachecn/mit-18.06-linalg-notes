@@ -1,4 +1,4 @@
-# 中文 Linear Algebra （线性代数） 笔记
+# MIT 18.06 线性代数（Linear Algebra）中文笔记
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
@@ -7,7 +7,7 @@
 
 <!-- break -->
 
-+ [在线阅读](https://apachecn.github.io/math)
++ [在线阅读](https://linalg.apachecn.org)
 
 ## Overview （概述）
 
