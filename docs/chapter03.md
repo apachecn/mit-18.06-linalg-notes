@@ -5,7 +5,7 @@
 
 ## 矩阵乘法
 
-* 行列内积：有$m\times n$矩阵$A$和$n\times p$矩阵$B$（$A$的总行数必须与$B$的总列数相等），两矩阵相乘有$AB=C$，$C$是一个$m\times p$矩阵，对于$C$矩阵中的第$i$行第$j$列元素$c_{ij}$，有：
+* 行列内积：有$m\times n$矩阵$A$和$n\times p$矩阵$B$（$A$的总列数必须与$B$的总行数相等），两矩阵相乘有$AB=C$，$C$是一个$m\times p$矩阵，对于$C$矩阵中的第$i$行第$j$列元素$c_{ij}$，有：
 
     $$c_{ij}=row_i\cdot column_j=\sum_{k=i}^na_{ik}b_{kj}$$
 
