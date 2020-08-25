@@ -5,7 +5,7 @@
 
 ## 矩阵乘法
 
-* 行列内积：有$m\times n$矩阵$A$和$n\times p$矩阵$B$（$A$的总行数必须与$B$的总列数相等），两矩阵相乘有$AB=C$，$C$是一个$m\times p$矩阵，对于$C$矩阵中的第$i$行第$j$列元素$c_{ij}$，有：
+* 行列内积：有$m\times n$矩阵$A$和$n\times p$矩阵$B$（$A$的总列数必须与$B$的总行数相等），两矩阵相乘有$AB=C$，$C$是一个$m\times p$矩阵，对于$C$矩阵中的第$i$行第$j$列元素$c_{ij}$，有：
 
     $$c_{ij}=row_i\cdot column_j=\sum_{k=i}^na_{ik}b_{kj}$$
 
@@ -43,7 +43,7 @@
 
 观察这个方阵，我们如果用另一个矩阵乘$A$，则得到的结果矩阵中的每一列应该都是$\begin{bmatrix}1\\2\end{bmatrix}$的倍数，所以我们不可能从$AB$的乘积中得到单位矩阵$I$。
 
-另一种判定方法，如果$A$乘以任意非零向量能够得到$0$向量，则矩阵$A$不可逆，即使用$Ax=0$判定。我们来用上面的矩阵为例：$\begin{bmatrix}1&2\\3&6\end{bmatrix}\begin{bmatrix}3\\-1\end{bmatrix}=\begin{bmatrix}0\\0\end{bmatrix}$。
+另一种判定方法，如果存在非零向量$x$，使得$Ax=0$，则矩阵$A$不可逆。我们来用上面的矩阵为例：$\begin{bmatrix}1&2\\3&6\end{bmatrix}\begin{bmatrix}3\\-1\end{bmatrix}=\begin{bmatrix}0\\0\end{bmatrix}$。
 
 证明：如果对于非零的$x$仍有$Ax=0$，而$A$有逆$A^{-1}$，则$A^{-1}Ax=0$，即$x=0$，与题设矛盾，得证。
 
