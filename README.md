@@ -21,3 +21,14 @@
 *   在我们的 [apachecn/mit-18.06-linalg-notes](https://github.com/apachecn/mit-18.06-linalg-notes) github 上提 issue.
 *   发邮件到 Email: `apachecn@163.com`.
 *   在我们的 [组织学习交流群](http://www.apachecn.org/organization/348.html) 中联系群主/管理员即可.
+
+
+## 下载
+
+### NPM
+
+```
+npm install -g mit-yiba.lingliu-linalg-notes
+mit-yiba.lingliu-linalg-notes <port>
+# 访问 http://localhost:{port} 查看文档
+```
