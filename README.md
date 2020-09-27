@@ -25,6 +25,14 @@
 
 ## 下载
 
+### PYPI
+
+```
+pip install mit-18.06-linalg-notes
+mit-18.06-linalg-notes <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
 ### NPM
 
 ```
