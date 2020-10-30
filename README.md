@@ -36,7 +36,15 @@ mit-18.06-linalg-notes <port>
 ### NPM
 
 ```
-npm install -g mit-yiba.lingliu-linalg-notes
-mit-yiba.lingliu-linalg-notes <port>
+npm install -g mit-yiba-lingliu-linalg-notes
+mit-yiba-lingliu-linalg-notes <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### Docker
+
+```
+docker pull apachecn0/mit-18-06-linalg-notes
+docker run -tid -p <port>:80 apachecn0/mit-18-06-linalg-notes
 # 访问 http://localhost:{port} 查看文档
 ```
