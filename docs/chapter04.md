@@ -78,4 +78,4 @@ $$
 \end{bmatrix}
 $$
 
-$n$阶方阵的置换矩阵有$\binom{n}{1}=n!$个。
+$n$阶方阵的置换矩阵有$\newcommand\Myperm[2][^n]{{#1\mkern-2.5mu}{}P_{#2}}\Myperm{n}=n!$个。
