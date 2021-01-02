@@ -4,7 +4,7 @@
 > 
 > 作者：[子实](https://github.com/zlotus)
 > 
-> 欢迎任何人参与和完善：一个人可以走的很快，但是一群人却可以走的更远。
+> 通过代码行数衡量开发进程就好比用重量来衡量飞机制造进度。——比尔·盖茨
 
 * [在线阅读](https://linalg.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/mit-18.06-linalg-notes/)
