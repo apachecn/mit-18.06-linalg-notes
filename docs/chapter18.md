@@ -10,7 +10,7 @@
 
     举例：$\begin{vmatrix}1&0\\0&1\end{vmatrix}=1,\quad\begin{vmatrix}0&1\\1&0\end{vmatrix}=-1$，于是我们猜想，对于二阶方阵，行列式的计算公式为$\begin{vmatrix}a&b\\c&d\end{vmatrix}=ad-bc$。
 
-3. a. $\begin{vmatrix}ta&tb\\tc&td\end{vmatrix}=t\begin{vmatrix}a&b\\c&d\end{vmatrix}$。
+3. a. $\begin{vmatrix}ta&tb\\c&d\end{vmatrix}=t\begin{vmatrix}a&b\\c&d\end{vmatrix}$。
 
     b. $\begin{vmatrix}a+a'&b+b'\\c&d\end{vmatrix}=\begin{vmatrix}a&b\\c&d\end{vmatrix}+\begin{vmatrix}a'&b'\\c&d\end{vmatrix}$。
     
