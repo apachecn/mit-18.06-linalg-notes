@@ -41,13 +41,13 @@
 
 对于这些有逆的矩阵，我们称其为可逆的或非奇异的。我们先来看看奇异矩阵（不可逆的）：$A=\begin{bmatrix}1&2\\3&6\end{bmatrix}$，在后面将要学习的行列式中，会发现这个矩阵的行列式为$0$。
 
-观察这个方阵，我们如果用另一个矩阵乘$A$，则得到的结果矩阵中的每一列应该都是$\begin{bmatrix}1\\2\end{bmatrix}$的倍数，所以我们不可能从$AB$的乘积中得到单位矩阵$I$。
+观察这个方阵，我们如果用另一个矩阵乘$A$，则得到的结果矩阵中的每一列应该都是$\begin{bmatrix}1\\3\end{bmatrix}$的倍数，所以我们不可能从$AB$的乘积中得到单位矩阵$I$。
 
-另一种判定方法，如果存在非零向量$x$，使得$Ax=0$，则矩阵$A$不可逆。我们来用上面的矩阵为例：$\begin{bmatrix}1&2\\3&6\end{bmatrix}\begin{bmatrix}3\\-1\end{bmatrix}=\begin{bmatrix}0\\0\end{bmatrix}$。
+另一种判定方法，如果存在非零向量$x$，使得$Ax=0$，则矩阵$A$不可逆。我们来用上面的矩阵为例：$\begin{bmatrix}1&2\\3&6\end{bmatrix}\begin{bmatrix}2\\-1\end{bmatrix}=\begin{bmatrix}0\\0\end{bmatrix}$。
 
 证明：如果对于非零的$x$仍有$Ax=0$，而$A$有逆$A^{-1}$，则$A^{-1}Ax=0$，即$x=0$，与题设矛盾，得证。
 
-现在来看看什么矩阵有逆，设$A=\begin{bmatrix}1&3\\2&7\end{bmatrix}$，我们来求$A^{-1}$。$\begin{bmatrix}1&3\\2&7\end{bmatrix}\begin{bmatrix}a&b\\c&d\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$，使用列向量线性组合的思想，我们可以说$A$乘以$A^{-1}$的第$j$列，能够得到$I$的第$j$列，这时我会得到一个关于列的方程组。
+现在来看看什么矩阵有逆，设$A=\begin{bmatrix}1&3\\2&7\end{bmatrix}$，我们来求$A^{-1}$。$\begin{bmatrix}1&3\\2&7\end{bmatrix}\begin{bmatrix}a&c\\b&d\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$，使用列向量线性组合的思想，我们可以说$A$乘以$A^{-1}$的第$j$列，能够得到$I$的第$j$列，这时我会得到一个关于列的方程组。
 
 接下来介绍高斯-若尔当（Gauss-Jordan）方法，该方法可以一次处理所有的方程：
 
